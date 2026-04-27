@@ -2,6 +2,10 @@
 
 
 
+https://github.com/user-attachments/assets/9b302faf-746f-4624-9a09-74893c9f6c6b
+
+
+
 
 
 # nisa sabyan mantan SMP yanoery90 smk taruna terpadu boash borcess 2012 , fix dont judged me again
