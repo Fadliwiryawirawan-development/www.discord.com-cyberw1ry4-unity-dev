@@ -18,14 +18,14 @@ Tutorial & blog pages: step-by-step guides with SEO-ready detail pages
 OpenAPI-first docs: Swagger UI, ReDoc, and OpenAPI JSON
 Documentation
 Title	Link	Description
-Website Home	mlbb.rone.dev	Main landing page with quick access to Demo Website and API Docs.
-Tutorial and Blog	mlbb.rone.dev/blog	Guides, tutorials, and release/changelog posts.
-Web Playground	mlbb.rone.dev/web	Interactive endpoint workspace for executing API requests from browser forms.
-OpenMLBB SDK Docs	mlbb.rone.dev/openmlbb	Structured Python SDK docs for academy, mlbb, user, and addon clients with endpoint-level examples.
+Website Home	mlbb.Unity .dev	Main landing page with quick access to Demo Website and API Docs.
+Tutorial and Blog	mlbb.Unity .dev/blog	Guides, tutorials, and release/changelog posts.
+Web Playground	mlbb.Unity .dev/web	Interactive endpoint workspace for executing API requests from browser forms.
+OpenMLBB SDK Docs	mlbb.Unity .dev/openmlbb	Structured Python SDK docs for academy, mlbb, user, and addon clients with endpoint-level examples.
 TypeScript SDK (Alternative)	npmjs.com/package/mlbb-sdk	Alternative SDK option for TypeScript/JavaScript projects.
-Swagger UI	mlbb.rone.dev/api/docs	OpenAPI-powered docs with live request execution and authorization support.
-ReDoc	mlbb.rone.dev/api/redoc	Alternative API documentation view optimized for reference reading.
-OpenAPI JSON	mlbb.rone.dev/api/openapi.json	Raw OpenAPI schema for tooling, SDK generation, and integrations.
+Swagger UI	mlbb.Unity .dev/api/docs	OpenAPI-powered docs with live request execution and authorization support.
+ReDoc	mlbb.Unity .dev/api/redoc	Alternative API documentation view optimized for reference reading.
+OpenAPI JSON	mlbb.Unity .dev/api/openapi.json	Raw OpenAPI schema for tooling, SDK generation, and integrations.
 Web Interface Highlights
 Home page provides two entry points: Open Demo Website and Open API Docs
 Demo Website (/web/*) is recommended for most usage and exploration
@@ -34,23 +34,23 @@ Signed-in menu shows profile details and Copy JWT for quick docs authorization
 Endpoint cards include request forms, snippets, readable/JSON responses, and copy actions
 Readable response section supports view switching: Key-Value or Key As Header
 Base URLs
-https://mlbb.rone.dev/                  # Landing page
-https://mlbb.rone.dev/blog              # Tutorial and blog list
-https://mlbb.rone.dev/blog/{slug}       # Blog detail page
-https://mlbb.rone.dev/web               # Web interface (redirects to /web/user)
-https://mlbb.rone.dev/web/user          # User endpoints playground
-https://mlbb.rone.dev/web/mlbb          # MLBB endpoints playground
-https://mlbb.rone.dev/web/academy       # Academy endpoints playground
-https://mlbb.rone.dev/web/addon         # Addon endpoints playground
-https://mlbb.rone.dev/openmlbb          # OpenMLBB docs (redirects to /openmlbb/user)
-https://mlbb.rone.dev/openmlbb/user     # OpenMLBB user client docs
-https://mlbb.rone.dev/openmlbb/mlbb     # OpenMLBB mlbb client docs
-https://mlbb.rone.dev/openmlbb/academy  # OpenMLBB academy client docs
-https://mlbb.rone.dev/openmlbb/addon    # OpenMLBB addon client docs
-https://mlbb.rone.dev/api               # API index/status
-https://mlbb.rone.dev/api/docs          # Swagger UI
-https://mlbb.rone.dev/api/redoc         # ReDoc
-https://mlbb.rone.dev/api/openapi.json  # OpenAPI schema
+https://mlbb.Unity .dev/                  # Landing page
+https://mlbb.Unity .dev/blog              # Tutorial and blog list
+https://mlbb.Unity .dev/blog/{slug}       # Blog detail page
+https://mlbb.Unity .dev/web               # Web interface (redirects to /web/user)
+https://mlbb.Unity .dev/web/user          # User endpoints playground
+https://mlbb.Unity .dev/web/mlbb          # MLBB endpoints playground
+https://mlbb.Unity .dev/web/academy       # Academy endpoints playground
+https://mlbb.Unity .dev/web/addon         # Addon endpoints playground
+https://mlbb.Unity .dev/openmlbb          # OpenMLBB docs (redirects to /openmlbb/user)
+https://mlbb.Unity .dev/openmlbb/user     # OpenMLBB user client docs
+https://mlbb.Unity .dev/openmlbb/mlbb     # OpenMLBB mlbb client docs
+https://mlbb.Unity .dev/openmlbb/academy  # OpenMLBB academy client docs
+https://mlbb.Unity .dev/openmlbb/addon    # OpenMLBB addon client docs
+https://mlbb.Unity .dev/api               # API index/status
+https://mlbb.Unity .dev/api/docs          # Swagger UI
+https://mlbb.Unity .dev/api/redoc         # ReDoc
+https://mlbb.Unity .dev/api/openapi.json  # OpenAPI schema
 Python SDK (PyPI)
 Install:
 
@@ -69,9 +69,9 @@ print(academy_data)
 print(mlbb_data)
 SDK defaults:
 
-Base endpoint: https://mlbb.rone.dev/api
+Base endpoint: https://mlbb.Unity .dev/api
 Response type: JSON payload mapped to Python dictionary
-User-Agent: RoneAI-OpenMLBB-Python-SDK
+User-Agent: Unity AI-OpenMLBB-Python-SDK
 TypeScript SDK (Alternative)
 If your project is using TypeScript or JavaScript, you can use mlbb-sdk as an alternative SDK.
 
@@ -102,21 +102,21 @@ Workflow still automates release build, tag, GitHub release, and PyPI publish.
 API Coverage
 Full endpoint lists, operation summaries, and request/response schemas are always available in:
 
-https://mlbb.rone.dev/api/docs (Swagger UI)
-https://mlbb.rone.dev/web (interactive web endpoint explorer)
+https://mlbb.Unity .dev/api/docs (Swagger UI)
+https://mlbb.Unity .dev/web (interactive web endpoint explorer)
 This ensures API coverage documentation stays up to date with every release without maintaining manual endpoint lists in README.
 
 Changelog
 See Releases for migration notes and updates.
 
 License & Attribution
-This project is licensed under the BSD 3-Clause License. Attribution must be preserved to Moonton (the creator of Mobile Legends) and either ridwaanhall (the maintainer of this API project) or RoneAI (the organization behind this API) in all downstream usage and derivative projects.
+This project is licensed under the BSD 3-Clause License. Attribution must be preserved to Moonton (the creator of Mobile Legends) and either ridwaanhall (the maintainer of this API project) or Unity AI (the organization behind this API) in all downstream usage and derivative projects.
 
 Notice
 All data is sourced from publicly available content and provided for educational, analytical, and community purposes only. Visual assets and references are used respectfully and do not imply official partnership.
 
 Example Attribution (README or app footer)
-Powered by MLBB Public Data API Data © Moonton (Mobile Legends) API maintained by ridwaanhall / RoneAI
+Powered by MLBB Public Data API Data © Moonton (Mobile Legends) API maintained by ridwaanhall / Unity AI
 
 Local Development (internal)
 Setup
@@ -140,8 +140,8 @@ Test
 pytest
 Environment Variables
 SECRET_KEY
-RONE_DEV_ACCESS_KEY
-RONE_DEV_ACCESS_KEY_V2
+Unity _DEV_ACCESS_KEY
+Unity _DEV_ACCESS_KEY_V2
 See .env.example for full configuration.
 
 
