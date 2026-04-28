@@ -6,51 +6,52 @@ Important
 Built with Dedication: This project is the result of over wakatime of meticulous coding, architecting, and performance tuning to ensure the best developer experience.
 
 Features
-Public REST API for MLBB data: user, mlbb, academy, and addon service groups
+# Public REST API for MLBB data: user, mlbb, academy, and addon service groups
 Web playground for all endpoints: form-driven execution at /web/*
-Flexible hero identifier support: hero ID or hero name (including compact slug-like names)
+# Flexible hero identifier support: hero ID or hero name (including compact slug-like names)
 Readable response views: switch between Key-Value and Key-As-Header table modes
-Language snippets: curl, python, javascript, go, node, php, java, csharp
+# Language snippets: curl, python, javascript, go, node, php, java, csharp
 Copy helpers: copy snippet, copy response, copy JWT from signed-in menu
-Auth modal flow for user endpoints: Send VC + Login in one popup
+# Auth modal flow for user endpoints: Send VC + Login in one popup
 JWT-aware navbar state: profile photo, username, country, roleId(zoneId), sign out
 Tutorial & blog pages: step-by-step guides with SEO-ready detail pages
-OpenAPI-first docs: Swagger UI, ReDoc, and OpenAPI JSON
+# OpenAPI-first docs: Swagger UI, ReDoc, and OpenAPI JSON
 Documentation
 Title	Link	Description
-Website Home	mlbb.Unity .dev	Main landing page with quick access to Demo Website and API Docs.
+# Website Home	mlbb.Unity .dev	Main landing page with quick access to Demo Website and API Docs.
 Tutorial and Blog	mlbb.Unity .dev/blog	Guides, tutorials, and release/changelog posts.
 Web Playground	mlbb.Unity .dev/web	Interactive endpoint workspace for executing API requests from browser forms.
-OpenMLBB SDK Docs	mlbb.Unity .dev/openmlbb	Structured Python SDK docs for academy, mlbb, user, and addon clients with endpoint-level examples.
+# OpenMLBB SDK Docs	mlbb.Unity .dev/openmlbb	Structured Python SDK docs for academy, mlbb, user, and addon clients with endpoint-level examples.
 TypeScript SDK (Alternative)	npmjs.com/package/mlbb-sdk	Alternative SDK option for TypeScript/JavaScript projects.
 Swagger UI	mlbb.Unity .dev/api/docs	OpenAPI-powered docs with live request execution and authorization support.
 ReDoc	mlbb.Unity .dev/api/redoc	Alternative API documentation view optimized for reference reading.
-OpenAPI JSON	mlbb.Unity .dev/api/openapi.json	Raw OpenAPI schema for tooling, SDK generation, and integrations.
+# OpenAPI JSON	mlbb.Unity .dev/api/openapi.json	Raw OpenAPI schema for tooling, SDK generation, and integrations.
 Web Interface Highlights
 Home page provides two entry points: Open Demo Website and Open API Docs
 Demo Website (/web/*) is recommended for most usage and exploration
 Sign In modal supports Send VC then Login with VC (same role/zone fields, VC expires in 5 minutes)
 Signed-in menu shows profile details and Copy JWT for quick docs authorization
-Endpoint cards include request forms, snippets, readable/JSON responses, and copy actions
+# Endpoint cards include request forms, snippets, readable/JSON responses, and copy actions
 Readable response section supports view switching: Key-Value or Key As Header
 Base URLs
-https://mlbb.Unity .dev/                  # Landing page
-https://mlbb.Unity .dev/blog              # Tutorial and blog list
-https://mlbb.Unity .dev/blog/{slug}       # Blog detail page
-https://mlbb.Unity .dev/web               # Web interface (redirects to /web/user)
-https://mlbb.Unity .dev/web/user          # User endpoints playground
-https://mlbb.Unity .dev/web/mlbb          # MLBB endpoints playground
-https://mlbb.Unity .dev/web/academy       # Academy endpoints playground
-https://mlbb.Unity .dev/web/addon         # Addon endpoints playground
-https://mlbb.Unity .dev/openmlbb          # OpenMLBB docs (redirects to /openmlbb/user)
-https://mlbb.Unity .dev/openmlbb/user     # OpenMLBB user client docs
-https://mlbb.Unity .dev/openmlbb/mlbb     # OpenMLBB mlbb client docs
-https://mlbb.Unity .dev/openmlbb/academy  # OpenMLBB academy client docs
-https://mlbb.Unity .dev/openmlbb/addon    # OpenMLBB addon client docs
-https://mlbb.Unity .dev/api               # API index/status
-https://mlbb.Unity .dev/api/docs          # Swagger UI
-https://mlbb.Unity .dev/api/redoc         # ReDoc
-https://mlbb.Unity .dev/api/openapi.json  # OpenAPI schema
+# https://mlbb.Unity .dev/                  # Landing page
+# https://mlbb.Unity .dev/blog              # Tutorial and blog list
+# https://mlbb.Unity .dev/blog/{slug}       # Blog detail page
+# https://mlbb.Unity .dev/web               # Web interface (redirects to /web/user)
+# https://mlbb.Unity .dev/web/user          # User endpoints playground
+# https://mlbb.Unity .dev/web/mlbb          # MLBB endpoints playground
+# https://mlbb.Unity .dev/web/academy       # Academy endpoints playground
+# https://mlbb.Unity .dev/web/addon         # Addon endpoints playground
+# https://mlbb.Unity .dev/openmlbb          # OpenMLBB docs (redirects to /openmlbb/user)
+# https://mlbb.Unity .dev/openmlbb/user     # OpenMLBB user client docs
+# https://mlbb.Unity .dev/openmlbb/mlbb     # OpenMLBB mlbb client docs
+# https://mlbb.Unity .dev/openmlbb/academy  # OpenMLBB academy client docs
+# https://mlbb.Unity .dev/openmlbb/addon    # OpenMLBB addon client docs
+# https://mlbb.Unity .dev/api               # API index/status
+# https://mlbb.Unity .dev/api/docs          # Swagger UI
+# https://mlbb.Unity .dev/api/redoc         # ReDoc
+# https://mlbb.Unity .dev/api/openapi.json  # OpenAPI schema
+
 Python SDK (PyPI)
 Install:
 
